@@ -5,10 +5,13 @@
 2. ```git clone https://github.com/Bedrock02/digital-tribe-site.git```
 3. ```cd digital-tribe-site; workon (environment created in step 1)```
 4. ```pip install -r requirements.txt```
+5. npm install
 
 ## Run Project Locally
 1. ```export FLASK_APP=main.py```
 2. ```flask run```
+3. Install Sass (http://sass-lang.com/install)
+4. ```sass --watch main.scss:main.css --style compressed``` (For making style changes)
 
 At this point you should see something like....
 ```
