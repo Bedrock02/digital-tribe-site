@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   {% block head %}
+  <!-- Style Sheets-->
   <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/main.min.css') }}">
-  <title>{% block title %}{% endblock %} - Digital Tribe</title>
   {% endblock %}
 </head>
-<body>
+<body>  
   {% include 'nav.html' %}
   <div class="container">
     {% block content %}
