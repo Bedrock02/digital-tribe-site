@@ -1,0 +1,23 @@
+{% block head %}
+  <title>{{header_data['title']}}</title>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{header_data['desc']}}">
+  <meta name="keywords" content="{{header_data['keywords']}}">
+  <!-- Social Media Stuff (Need to figure out how to make this generic across all pages-->
+  <!-- FB -->
+  <!-- <meta property="og:url" content="{{pageUrl}}"> -->
+  <!-- <meta property="og:image" content="{{imageUrl}}"> -->
+  <meta property="og:description" content="{{header_data['desc']}}">
+  <meta property="og:title" content="{{header_data['title']}}">
+  <meta property="og:site_name" content="Digital Tribe">
+  <meta property="og:see_also" content="www.digitaltribeservices.com">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <!-- <meta name="twitter:url" content="{{pageUrl}}"> -->
+  <meta name="twitter:title" content="{{header_data['title']}}">
+  <meta name="twitter:description" content="{{header_data['desc']}}">
+  <!-- <meta name="twitter:image" content="{{imageUrl}}"> -->
+{% endblock %}
