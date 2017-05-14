@@ -1,0 +1,24 @@
+{
+  "name": "digitaltribe",
+  "version": "1.0.0",
+  "description": "Package Manager for javascript libaries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bedrock02/digital-tribe-site.git"
+  },
+  "author": "Steven J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bedrock02/digital-tribe-site/issues"
+  },
+  "homepage": "https://github.com/Bedrock02/digital-tribe-site#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browserify": "^14.3.0",
+    "jquery": "^3.2.1"
+  }
+}

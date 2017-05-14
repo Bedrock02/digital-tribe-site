@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Javascript
+node_modules
+
+# CSS/SCSS
+static/.sass-cache
