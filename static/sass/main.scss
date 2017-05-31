@@ -1,4 +1,13 @@
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+.carousel-inner {
+  width: 80%;
+  margin-left: 10%;
+  .carousel-caption {
+    @media(max-width:450px) {
+      display: none;
+    }  
+  }
+}
 
 h1 {
   color: #CF4520;
@@ -20,8 +29,8 @@ h1 {
   @media(min-width:1200px){
     width: 250px;
     height: 150px;
-  }
-  
+  } 
+
   margin: 10px;
   background-image: url("/static/images/digital-tribe-logo.png");
   background-repeat: no-repeat;
@@ -52,4 +61,16 @@ h1 {
     font-size: 1.5em
   }  
 }
+.profile-pic {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+}
+#imageSteven {
+  background-image: url(https://s3-us-west-1.amazonaws.com/digital-tribe/image-20160701_054327.jpg);
+}
 
+#imageRon {
+  background-image: url(https://s3-us-west-1.amazonaws.com/digital-tribe/ron.jpg);
+}
